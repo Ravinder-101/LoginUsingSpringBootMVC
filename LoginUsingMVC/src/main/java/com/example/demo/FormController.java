@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class FormController {
-@GetMapping("/edureka")
+@GetMapping("/Login")
 public String edureka()
 {
-	return "edureka";
+	return "Login";
 }
 @PostMapping("/details")
 public String viewdetails(@RequestParam("cid") String cid, 
